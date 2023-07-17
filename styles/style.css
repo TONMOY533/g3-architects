@@ -86,3 +86,43 @@ nav li a {
         padding:50px
     }
 }
+
+/* main margins*/
+
+main {
+    max-width: 1440px;
+    margin: 0 auto ;
+}
+
+.team-cont {
+    display: flex;
+    align-items: center;
+    
+
+
+.Tc {
+    margin-left: 75px;
+}
+
+.teams-img-cont {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap : 24px
+    
+}
+
+.team-title {
+    font-size: 2.8rem;
+}
+
+.team-title .ql { 
+    color: var(--dark-03, #727272);
+    font-weight: 700;
+}
+
+.team-title .Ftr {
+    color: #FF900E;
+    font-weight: 700;
+}
